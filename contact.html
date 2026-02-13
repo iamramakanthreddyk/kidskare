@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - KKR Kids Kare</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">KKR Kids Kare - The Pre School</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="franchise.html">Franchise</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <p>Ready to Make a Difference? Contact Us Today!</p>
+
+        <div class="contact-options">
+            <div class="option">
+                <h3>Franchise Enquiries</h3>
+                <p>Discover how you can own a KKR Kids Kare preschool and build a rewarding business whilst positively impacting young lives in your community.</p>
+                <a href="#contact-form" class="btn">Request Franchise Information</a>
+            </div>
+            <div class="option">
+                <h3>Enrol Your Child</h3>
+                <p>Schedule a campus tour or virtual visit to experience our nurturing environment, meet our educators, and see firsthand why families choose us.</p>
+                <a href="#contact-form" class="btn">Schedule a Campus Tour</a>
+            </div>
+            <div class="option">
+                <h3>Stay Connected</h3>
+                <p>Follow us on social media for daily updates, educational tips, success stories, upcoming events, and insights into our vibrant learning community.</p>
+                <a href="https://wa.me/918329729040" class="btn" target="_blank">Chat on WhatsApp</a>
+            </div>
+        </div>
+
+        <form id="contact-form" action="#" method="post">
+            <label for="inquiry-type">Inquiry Type:</label>
+            <select id="inquiry-type" name="inquiry-type" required>
+                <option value="">Select</option>
+                <option value="parent">Parent Inquiry</option>
+                <option value="franchise">Franchise Inquiry</option>
+            </select>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contact: support@kidskare.com | +91 832 972 9040</p>
+        <p>&copy; 2026 KKR Kids Kare - The Pre School</p>
+    </footer>
+
+    <a href="https://wa.me/918329729040" class="whatsapp-btn" target="_blank">
+        <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="Chat on WhatsApp">
+    </a>
+</body>
+</html>
